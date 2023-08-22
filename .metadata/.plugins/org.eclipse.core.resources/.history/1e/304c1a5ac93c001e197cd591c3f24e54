@@ -1,0 +1,14 @@
+package Interface_ImplementationClass;
+
+public class Sample2_implementation implements Sample1 {
+	public void m1() {
+		
+		System.out.println(a);
+		System.out.println("Method m1 completed in IC");
+		
+	}
+    
+	public void m2() {
+		System.out.println("Method m2 completed in IC");
+	}
+}

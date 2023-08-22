@@ -1,0 +1,15 @@
+package this_super_keyword;
+
+public class Sample2 {
+	
+	int a=20; //global variable from same class
+
+ public void m1() {
+	 int b=30; //local variable
+	 System.out.println(b);
+	 System.out.println(this.a);
+	 System.out.println(super.a);
+	
+}
+
+}
